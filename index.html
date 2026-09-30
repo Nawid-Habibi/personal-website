@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>نوید حبیبی | طراح دیجیتال</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars-bg"></div>
+<div class="grid-overlay"></div>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- هدر -->
+<header class="header" id="header">
+  <nav class="nav">
+    <a href="#home" class="logo-neon">
+      <span class="logo-hex"><span>N</span></span>
+      <span class="logo-text">Nawid Habibi</span>
+    </a>
+    <ul class="nav-links-new" id="navLinks">
+      <li><a href="#home" class="active">خانه</a></li>
+      <li><a href="#about">درباره</a></li>
+      <li><a href="#skills">مهارت‌ها</a></li>
+      <li><a href="#projects">پروژه‌ها</a></li>
+      <li><a href="#expertise">تخصص</a></li>
+      <li><a href="#contact">تماس</a></li>
+    </ul>
+    <a href="#contact" class="cta-btn">
+      <span>💬</span>
+      <span>بیا شروع کنیم</span>
+    </a>
+    <button class="menu-toggle-new" id="menuToggle" aria-label="منو">☰</button>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero-section" id="home">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <span class="hero-tag">
+        <span class="tag-pulse"></span>
+        آنلاین و آماده همکاری
+      </span>
+      <h1 class="hero-name-neon">
+        <span class="name-part" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">نوید حبیبی</span>
+      </h1>
+      <h2 class="hero-sub-neon">
+        من یک <span class="typed-neon" id="typed"></span><span class="typed-cursor"></span>
+      </h2>
+      <p class="hero-desc-neon">
+        به برندها و کسب‌وکارها کمک می‌کنم تا در دنیای دیجیتال <strong>بدرخشن</strong>،
+        رشد کنن و به مخاطب های شان نزدیک‌تر شوند. ایده‌ها رو به واقعیت تبدیل می‌کنم
+        با کد، طراحی و خلاقیت.
+      </p>
+      <div class="hero-buttons-neon">
+        <a href="#projects" class="btn-neon btn-neon-fill">
+          <span>🚀</span>
+          <span>دیدن پروژه‌ها</span>
+        </a>
+        <a href="#contact" class="btn-neon btn-neon-outline">
+          <span>✨</span>
+          <span>بیا صحبت کنیم</span>
+        </a>
+      </div>
+      <div class="social-row">
+        <a href="#" class="social-neon" title="Instagram"><span><img src="./icons/facebook_48px.png" alt="" style="margin-top: 10px;"></span></a>
+        <a href="#" class="social-neon" title="LinkedIn"><span><img src="./icons/github_48px.png" alt=""  style="margin-top: 10px;"></span></a>
+        <a href="#" class="social-neon" title="Telegram"><span><img src="./icons/instagram_logo_48px.png" alt=""  style="margin-top: 10px;"></span></a>
+        <a href="#" class="social-neon" title="GitHub"><span><img src="./icons/whatsapp_48px.png" alt=""  style="margin-top: 10px;"></span></a>
+        <a href="#" class="social-neon" title="Twitter"><span><img src="./icons/youtube_play_button_48px.png" alt=""  style="margin-top: 10px;"></span></a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="photo-stage">
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring"></div>
+        <div class="photo-halo"></div>
+        <div class="photo-wrapper-neon">
+          <img src="./ping/۲۰۲۶۰۹۰۳_۱۴۴۹۵۰.jpg" alt="نوید حبیبی" />
+        </div>
+        <div class="float-chip chip-1">
+          <span class="chip-icon">⚡</span>
+          <span>2+ سال تجربه</span>
+        </div>
+        <div class="float-chip chip-2">
+          <span class="chip-icon">★</span>
+          <span>۱۲۰+ پروژه</span>
+        </div>
+        <div class="float-chip chip-3">
+          <span class="chip-icon">◆</span>
+          <span>امتیاز ۴.۹</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- نوار متحرک -->
+<div class="marquee-strip">
+  <div class="marquee-track" id="marquee">
+    <!-- توسط JS پر می‌شه -->
+  </div>
+</div>
+
+<!-- درباره -->
+<section class="section-new" id="about">
+  <div class="container-new">
+    <div class="head-neon reveal-new">
+      <span class="eyebrow">درباره من</span>
+      <h2 class="title-neon">آشنایی با نوید حبیبی</h2>
+      <p class="sub-neon">یک داستان کوتاه از مسیر حرفه‌ای و علاقه من به دنیای دیجیتال</p>
+    </div>
+
+    <div class="about-new">
+      <div class="about-photo-frame reveal-new">
+        <img src="./ping/IMG_۲۰۲۴۱۲۱۲_۲۲۳۶۵۴.jpg" alt="نوید حبیبی" />
+        <div class="about-badge-overlay">
+          <strong>نوید حبیبی</strong>
+          <span>طراح و توسعه‌دهنده دیجیتال</span>
+        </div>
+      </div>
+
+      <div class="about-text-new reveal-new">
+        <h3>سلام! من <span>نوید حبیبی<span> هستم</h3>
+        <p>
+          یک توسعه دهنده و طراح وب که علاقه ساختن چیز های جدید را دارد. کارم را از
+          روی کنجکاوی شروع کردم و حال بعد از سال‌ها، هنوزم هر روز چیز
+          جدید یاد می‌گیرم و می‌سازم.
+        </p>
+        <p>
+          تخصص من ترکیب <strong style="color: var(--neon-cyan)">طراحی مدرن</strong>
+          و <strong style="color: var(--neon-purple)">کد تمیز</strong> هست. باور دارم
+          که یک محصول دیجیتال خوب باید  زیبا باشه،  سریع،  کاربر پسند.
+        </p>
+        <p>
+          وقتی کد نمی نویسم مشغول یاد گرفتن تکنولوژی‌های
+          جدید.استم اینجا می‌ توانی بیشتر با کارهای من آشنا شوید.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-box">
+            <div class="num-neon" data-count="20">0</div>
+            <div class="label-neon">پروژه موفق</div>
+          </div>
+          <div class="stat-box">
+            <div class="num-neon" data-count="2">0</div>
+            <div class="label-neon">سال تجربه</div>
+          </div>
+          <div class="stat-box">
+            <div class="num-neon" data-count="85">0</div>
+            <div class="label-neon">مشتری راضی</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- مهارت‌ها -->
+<section class="section-new" id="skills">
+  <div class="container-new">
+    <div class="head-neon reveal-new">
+      <span class="eyebrow">مهارت‌ها</span>
+      <h2 class="title-neon">ابزارهای من</h2>
+      <p class="sub-neon">تکنولوژی‌ها و مهارت‌هایی که هر روز باآن ها کار می‌کنم</p>
+    </div>
+
+    <div class="skills-new reveal-new">
+      <div class="skill-new">
+        <div class="skill-icon-neon">🎨</div>
+        <h4>طراحی UI / UX</h4>
+        <p>طراحی رابط‌های کاربری زیبا و کاربرپسند</p>
+      </div>
+      <div class="skill-new">
+        <div class="skill-icon-neon">⚛️</div>
+        <h4>React و Next.js</h4>
+        <p>ساخت اپلیکیشن‌های مدرن و سریع</p>
+      </div>
+      <div class="skill-new">
+        <div class="skill-icon-neon">🎯</div>
+        <h4>HTML / CSS / JS</h4>
+        <p>پایه‌های محکم توسعه وب</p>
+      </div>
+      <div class="skill-new">
+        <div class="skill-icon-neon">🌐</div>
+        <h4>Node.js</h4>
+        <p>ساخت API و بک‌اند قدرتمند</p>
+      </div>
+      <div class="skill-new">
+        <div class="skill-icon-neon">📱</div>
+        <h4>طراحی ریسپانسیو</h4>
+        <p>تجربه عالی روی همه دستگاه‌ها</p>
+      </div>
+      <div class="skill-new">
+        <div class="skill-icon-neon">🚀</div>
+        <h4>بهینه‌سازی سرعت</h4>
+        <p>وب‌سایت‌های سریع و بهینه</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- پروژه‌ها - اسکرول افقی -->
+<section class="section-new" id="projects">
+  <div class="container-new">
+    <div class="head-neon reveal-new">
+      <span class="eyebrow">پروژه‌ها</span>
+      <h2 class="title-neon">کارهای اخیر</h2>
+      <p class="sub-neon">چند نمونه از پروژه‌هایی که با عشق و دقت ساختم بکش طرفین</p>
+    </div>
+
+    <div class="projects-scroll reveal-new">
+      <div class="project-neon">
+        <div class="project-thumb-neon pt-1">🛒</div>
+        <div class="project-body-neon">
+          <h4>فروشگاه آنلاین مدرن</h4>
+          <p>فروشگاه با سبد خرید، پرداخت و پنل مدیریت کامل.</p>
+          <div class="project-tags">
+            <span class="tag-neon">React</span>
+            <span class="tag-neon">Stripe</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-neon">
+        <div class="project-thumb-neon pt-2">📊</div>
+        <div class="project-body-neon">
+          <h4>داشبورد تحلیلی</h4>
+          <p>پنل مدیریت داده با نمودارهای تعاملی و ریل‌تایم.</p>
+          <div class="project-tags">
+            <span class="tag-neon">Next.js</span>
+            <span class="tag-neon">Chart.js</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-neon">
+        <div class="project-thumb-neon pt-3">💬</div>
+        <div class="project-body-neon">
+          <h4>اپلیکیشن چت</h4>
+          <p>چت ریل‌تایم با ارسال فایل و گروه‌بندی.</p>
+          <div class="project-tags">
+            <span class="tag-neon">Socket.io</span>
+            <span class="tag-neon">Node.js</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-neon">
+        <div class="project-thumb-neon pt-4">🎬</div>
+        <div class="project-body-neon">
+          <h4>پلتفرم ویدیو</h4>
+          <p>سایت اشتراک‌گذاری ویدیو با پخش‌کننده سفارشی.</p>
+          <div class="project-tags">
+            <span class="tag-neon">React</span>
+            <span class="tag-neon">MongoDB</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-neon">
+        <div class="project-thumb-neon pt-5">🎵</div>
+        <div class="project-body-neon">
+          <h4>اپ موسیقی</h4>
+          <p>پخش‌کننده موسیقی با پلی‌لیست و جستجوی پیشرفته.</p>
+          <div class="project-tags">
+            <span class="tag-neon">React Native</span>
+            <span class="tag-neon">API</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- تخصص -->
+<section class="section-new" id="expertise">
+  <div class="container-new">
+    <div class="head-neon reveal-new">
+      <span class="eyebrow">تخصص</span>
+      <h2 class="title-neon">چطور کمکت می‌کنم؟</h2>
+      <p class="sub-neon">سه قدم ساده برای شروع همکاری</p>
+    </div>
+
+    <div class="expertise-grid reveal-new">
+      <div class="expertise-card">
+        <div class="expertise-num">01</div>
+        <h4>گوش می‌دم</h4>
+        <p>اول با دقت به ایده، اهدافت و نیازهای پروژه‌ تو گوش می‌دم تا کاملاً درکش کنم.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-num">02</div>
+        <h4>طراحی می‌کنم</h4>
+        <p>یک نقشه را کامل طراحی می‌کنم و طرح‌های اولیه رو با تو به اشتراک می‌گذارم.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-num">03</div>
+        <h4>می‌سازم</h4>
+        <p>پروژه رو با بهترین کیفیت می‌سازم، تست می‌کنم و تحویل می‌تم با پشتیبانی کامل.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- تماس -->
+<section class="section-new" id="contact">
+  <div class="container-new">
+    <div class="contact-neon reveal-new">
+      <div class="contact-inner">
+        <h3>بیا یک چیز عالی بسازیم ✨</h3>
+        <p>
+          یک فکر داری که منتظر واقعی شدنش استی؟ یا فقط می‌خوای  سلام علیک کنیم؟
+          از هر راهی که راحت‌ استی در تماس باش.
+        </p>
+
+        <div class="contact-options">
+          <a href="mailto:navid@example.com" class="contact-opt">
+            <div class="opt-icon">📧</div>
+            <div class="opt-info">
+              <small>ایمیل</small>
+              <strong>nhabibi818@gmail.com</strong>
+            </div>
+          </a>
+          <a href="tel:+93700111222" class="contact-opt">
+            <div class="opt-icon">📱</div>
+            <div class="opt-info">
+              <small>تلفن</small>
+              <strong>+93704763195</strong>
+            </div>
+          </a>
+          <a href="#" class="contact-opt">
+            <div class="opt-icon"><img src="./icons/address_48px.png" alt=""></div>
+            <div class="opt-info">
+              <small>موقعیت</small>
+              <strong>بغلان، افغانستان</strong>
+            </div>
+          </a>
+        </div>
+
+        <a href="mailto:nhabibi818@gmail.com" class="contact-btn-main">
+          <span>💬</span>
+          <span>شروع یک گفتگو</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- فوتر -->
+<footer class="footer-neon">
+  <div class="footer-neon-inner">
+    <div class="footer-logo-neon">NAVID HABIBI</div>
+    <p>
+      <span class="dot"></span> نوید حبیبی © ۲۰۲۵
+    </p>
+  </div>
+</footer>
+
+<!-- دکمه بالا -->
+<button class="scroll-neon" id="scrollTop" aria-label="بالا">↑</button>
+
+<script>
+/* ========== ذرات شناور ========== */
+(function createParticles() {
+  const colors = ['#a855f7', '#22d3ee', '#ec4899', '#3b82f6'];
+  for (let i = 0; i < 25; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    const size = Math.random() * 4 + 2;
+    p.style.width = size + 'px';
+    p.style.height = size + 'px';
+    p.style.background = colors[Math.floor(Math.random() * colors.length)];
+    p.style.right = Math.random() * 100 + 'vw';
+    p.style.boxShadow = `0 0 ${size * 3}px currentColor`;
+    p.style.animationDuration = (Math.random() * 20 + 15) + 's';
+    p.style.animationDelay = -Math.random() * 20 + 's';
+    p.style.opacity = Math.random() * 0.5 + 0.2;
+    document.body.appendChild(p);
+  }
+})();
+
+/* ========== نشانگر درخشان ماوس ========== */
+const cursorGlow = document.getElementById('cursorGlow');
+let mouseX = 0, mouseY = 0;
+let currentX = 0, currentY = 0;
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+function animateCursor() {
+  currentX += (mouseX - currentX) * 0.15;
+  currentY += (mouseY - currentY) * 0.15;
+  cursorGlow.style.left = currentX + 'px';
+  cursorGlow.style.top = currentY + 'px';
+  requestAnimationFrame(animateCursor);
+}
+animateCursor();
+
+/* ========== نوار متحرک ========== */
+const marqueeItems = [
+  '⚡ توسعه وب',
+  '🎨 طراحی UI/UX',
+  '🚀 ایده تا واقعیت',
+  '💻 کد تمیز',
+  '✨ خلاقیت بی‌پایان',
+  '🎯 تمرکز روی جزئیات'
+];
+const marqueeTrack = document.getElementById('marquee');
+const marqueeHTML = marqueeItems.map(item =>
+  `<span class="marquee-item"><span class="marquee-dot"></span>${item}</span>`
+).join('');
+marqueeTrack.innerHTML = marqueeHTML + marqueeHTML;
+
+/* ========== هدر اسکرول ========== */
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 30);
+}, { passive: true });
+
+/* ========== منوی موبایل ========== */
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('mobile-open');
+});
+document.querySelectorAll('#navLinks a').forEach(link => {
+  link.addEventListener('click', () => navLinks.classList.remove('mobile-open'));
+});
+
+/* ========== اکتیو لینک ========== */
+const sections = document.querySelectorAll('section[id]');
+const menuLinks = document.querySelectorAll('#navLinks a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(sec => {
+    if (window.scrollY >= sec.offsetTop - 150) current = sec.id;
+  });
+  menuLinks.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+}, { passive: true });
+
+/* ========== افکت تایپ ========== */
+const words = ['توسعه‌دهنده وب', 'طراح UI/UX', 'طراحی ایده‌ها', 'عاشق کد'];
+let wi = 0, ci = 0, deleting = false;
+const typed = document.getElementById('typed');
+function typeLoop() {
+  const word = words[wi];
+  typed.textContent = deleting
+    ? word.substring(0, ci--)
+    : word.substring(0, ci++);
+  if (!deleting && ci === word.length + 1) {
+    deleting = true;
+    setTimeout(typeLoop, 1800);
+    return;
+  }
+  if (deleting && ci === 0) {
+    deleting = false;
+    wi = (wi + 1) % words.length;
+  }
+  setTimeout(typeLoop, deleting ? 55 : 110);
+}
+if (typed) typeLoop();
+
+/* ========== انیمیشن ظاهر شدن ========== */
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('show');
+      revealObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal-new').forEach(el => revealObserver.observe(el));
+
+/* ========== شمارنده ========== */
+const statObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.num-neon').forEach(num => {
+        const target = +num.dataset.count;
+        let current = 0;
+        const step = target / 60;
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) {
+            num.textContent = target + '+';
+            clearInterval(timer);
+          } else {
+            num.textContent = Math.floor(current);
+          }
+        }, 25);
+      });
+      statObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.3 });
+const statsEl = document.querySelector('.about-stats');
+if (statsEl) statObserver.observe(statsEl);
+
+/* ========== افکت tilt سه‌بعدی روی کارت پروفایل ========== */
+const photoStage = document.querySelector('.photo-stage');
+if (photoStage && window.matchMedia('(pointer: fine)').matches) {
+  photoStage.addEventListener('mousemove', (e) => {
+    const rect = photoStage.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    photoStage.style.transform = `perspective(1000px) rotateY(${x * 15}deg) rotateX(${-y * 15}deg)`;
+    photoStage.style.transition = 'transform 0.1s';
+  });
+  photoStage.addEventListener('mouseleave', () => {
+    photoStage.style.transform = 'perspective(1000px) rotateY(0) rotateX(0)';
+    photoStage.style.transition = 'transform 0.5s';
+  });
+}
+
+/* ========== دکمه بالا ========== */
+const scrollTopBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', () => {
+  scrollTopBtn.classList.toggle('show', window.scrollY > 500);
+}, { passive: true });
+scrollTopBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+/* ========== اسکرول افقی پروژه‌ها با درگ ========== */
+const scrollContainer = document.querySelector('.projects-scroll');
+if (scrollContainer) {
+  let isDown = false;
+  let startX, scrollLeft;
+  scrollContainer.addEventListener('mousedown', (e) => {
+    isDown = true;
+    scrollContainer.style.cursor = 'grabbing';
+    startX = e.pageX - scrollContainer.offsetLeft;
+    scrollLeft = scrollContainer.scrollLeft;
+  });
+  scrollContainer.addEventListener('mouseleave', () => {
+    isDown = false;
+    scrollContainer.style.cursor = 'grab';
+  });
+  scrollContainer.addEventListener('mouseup', () => {
+    isDown = false;
+    scrollContainer.style.cursor = 'grab';
+  });
+  scrollContainer.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - scrollContainer.offsetLeft;
+    const walk = (x - startX) * 1.5;
+    scrollContainer.scrollLeft = scrollLeft - walk;
+  });
+}
+</script>
+
+</body>
+</html>
